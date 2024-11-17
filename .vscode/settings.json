@@ -9,6 +9,10 @@
   "editor.codeActionsOnSave": {
     "source.fixAll": "always"
   },
+  "editor.defaultFormatter": "dbaeumer.vscode-eslint",
+  "[astro]": {
+    "editor.defaultFormatter": "astro-build.astro-vscode"
+  },
   "css.customData": [
     ".vscode/css_custom.json"
   ],
