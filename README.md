@@ -13,11 +13,11 @@ Built using **Astro**, **React**, and **Shadcn/UI**.
 ```bash
 resume/
 ├── src/
-│   ├── components/   # React components
-│   ├── layouts/      # Astro layout files
-│   ├── pages/        # Astro pages
-│   └── styles/       # Global styles (Tailwind CSS)
-├── public/           # Static files (images, fonts, etc.)
-├── astro.config.mjs  # Astro configuration file
-├── tailwind.config.js# Tailwind CSS configuration file
-└── package.json      # Project dependencies
+│   ├── components/    # React components
+│   ├── layouts/       # Astro layout files
+│   ├── pages/         # Astro pages
+│   └── styles/        # Global styles (Tailwind CSS)
+├── public/            # Static files (images, fonts, etc.)
+├── astro.config.mjs   # Astro configuration file
+├── tailwind.config.js # Tailwind CSS configuration file
+└── package.json       # Project dependencies
