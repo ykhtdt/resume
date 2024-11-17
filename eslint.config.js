@@ -1,16 +1,16 @@
 import eslintPluginJs from "@eslint/js"
 import eslintPluginAstro from "eslint-plugin-astro"
-// import eselintPluginTs from "typescript-eslint"
+import eslintPluginTs from "typescript-eslint"
 
 export default [
   {
-    files: ["**/*.{js,mjs,cjs,ts}"]
+    files: ["**/*.{js,mjs,cjs,ts,tsx,astro}"]
   },
   {
-    ignores: [".astro/**/*", "dist/**/*", "**/static/"]
+    ignores: [".astro/**/*", "dist/**/*", "**/static/", "**/env.d.ts"]
   },
   eslintPluginJs.configs.recommended,
-  // ...eselintPluginTs.configs.recommended,
+  ...eslintPluginTs.configs.recommended,
   ...eslintPluginAstro.configs.recommended,
   {
     rules: {
