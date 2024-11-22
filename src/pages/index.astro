@@ -3,37 +3,45 @@ import "@/styles/globals.css"
 import Layout from "@/layouts/Layout.astro"
 
 import { ModeToggle } from "@/components/mode-toggle"
+
+const { PDF_VIEW } = import.meta.env
+
+const { Content, frontmatter } = await import("@/content/resume.md")
 ---
 
-<script is:inline>
-  const getThemePreference = () => {
-    if (typeof localStorage !== "undefined" && localStorage.getItem("theme")) {
-      return localStorage.getItem("theme")
-    }
-
-    return window.matchMedia("(prefers-color-scheme: dark)").matches
-      ? "dark"
-      : "light"
-  }
-  const isDark = getThemePreference() === "dark"
-  document.documentElement.classList[isDark ? "add" : "remove"]("dark")
-
-  if (typeof localStorage !== "undefined") {
-    const observer = new MutationObserver(() => {
-      const isDark = document.documentElement.classList.contains("dark")
-      localStorage.setItem("theme", isDark ? "dark" : "light")
-    })
-    observer.observe(document.documentElement, {
-      attributes: true,
-      attributeFilter: ["class"],
-    })
-  }
-</script>
-
 <Layout title="Jonggwang Park - Resume">
-  <main>
-    <ModeToggle client:load />
+  {
+    !PDF_VIEW && (
+      <div class="container mx-auto flex justify-end py-4">
+        <ModeToggle client:load />
+      </div>
+    )
+  }
+  <main class={!PDF_VIEW ? "container mx-auto my-12 bg-slate-100 dark:bg-slate-900 px-8 py-10" : "container mx-auto px-8 py-10"}>
+    <div>
+      <div class="space-y-2">
+        <h1 class="text-3xl font-bold tracking-tight">
+          {frontmatter.author}
+        </h1>
+        <p class="text-base text-muted-foreground">
+          {frontmatter.position}
+        </p>
+      </div>
+    </div>
+    <article class="mdx pt-4">
+      <Content />
+    </article>
   </main>
 </Layout>
 
-<style></style>
+<style>
+  .mdx {
+    h1 {
+      @apply text-3xl font-bold tracking-tight;
+    }
+
+    p {
+      @apply text-sm text-foreground font-light leading-normal;
+    }
+  }
+</style>
