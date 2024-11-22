@@ -9,5 +9,6 @@ export default {
       },
     },
   ],
-  semi: false
+  semi: false,
+  printWidth: 200,
 }
