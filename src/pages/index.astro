@@ -1,4 +1,6 @@
 ---
+import { Mail, Phone, MapPin } from "lucide-react"
+
 import "@/styles/globals.css"
 import Layout from "@/layouts/Layout.astro"
 
@@ -17,17 +19,35 @@ const { Content, frontmatter } = await import("@/content/resume.md")
       </div>
     )
   }
-  <main class={!PDF_VIEW ? "container mx-auto my-12 bg-slate-100 dark:bg-slate-900 px-8 py-10" : "container mx-auto px-8 py-10"}>
+  <main class={!PDF_VIEW ? "container mx-auto my-12 bg-white dark:bg-slate-900 px-8 py-10 shadow-lg rounded-md overflow-hidden" : "container mx-auto px-8 py-10 overflow-hidden"}>
+    <!-- Profile -->
     <div>
       <div class="space-y-2">
-        <h1 class="text-3xl font-bold tracking-tight">
+        <h1 class="text-4xl font-bold tracking-tight">
           {frontmatter.author}
         </h1>
-        <p class="text-base text-muted-foreground">
+        <p class="text-2xl text-slate-700 dark:text-slate-400">
           {frontmatter.position}
         </p>
       </div>
     </div>
+
+    <div class="mt-4 flex flex-wrap gap-4">
+      <div class="flex items-center gap-2">
+        <Mail className="w-4 h-4" />
+        <a href={`mailto:${frontmatter.email}`} class="font-light text-sm">{frontmatter.email}</a>
+      </div>
+      <div class="flex items-center gap-2">
+        <Phone className="w-4 h-4" />
+        <span class="font-light text-sm">{frontmatter.phone}</span>
+      </div>
+      <div class="flex items-center gap-2">
+        <MapPin className="w-4 h-4 " />
+        <span class="font-light text-sm">{frontmatter.location}</span>
+      </div>
+    </div>
+
+    <!-- Content -->
     <article class="mdx pt-4">
       <Content />
     </article>
@@ -36,12 +56,24 @@ const { Content, frontmatter } = await import("@/content/resume.md")
 
 <style>
   .mdx {
-    h1 {
-      @apply text-3xl font-bold tracking-tight;
+    h2 {
+      @apply text-3xl font-bold mt-10 mb-6 tracking-tight;
+    }
+
+    h3 {
+      @apply text-xl font-semibold [&:not(:first-child)]:mt-6;
     }
 
     p {
-      @apply text-sm text-foreground font-light leading-normal;
+      @apply text-sm text-slate-700 dark:text-slate-300 leading-relaxed;
+    }
+
+    ul {
+      @apply list-disc list-inside text-slate-700 dark:text-slate-300 text-sm pl-2 space-y-2 mt-2;
+    }
+
+    hr {
+      @apply border-border -mx-8 mt-10;
     }
   }
 </style>
