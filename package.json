@@ -11,7 +11,8 @@
     "lint": "eslint . --fix",
     "generate-pdf": "node ./scripts/generate-pdf.js",
     "generate-pdf:ci": "cross-env PDF_VIEW=true start-server-and-test http://localhost:4321 generate-pdf",
-    "build": "pnpm generate-pdf:ci && astro build",
+    "build": "astro build",
+    "build:local": "pnpm generate-pdf:ci && astro build",
     "build:light": "cross-env FORCE_THEME=light pnpm build",
     "build:dark": "cross-env FORCE_THEME=dark pnpm build"
   },
