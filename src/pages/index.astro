@@ -5,6 +5,7 @@ import "@/styles/globals.css"
 import Layout from "@/layouts/Layout.astro"
 
 import { ModeToggle } from "@/components/mode-toggle"
+import Download from "@/components/download.astro"
 
 const { PDF_VIEW } = import.meta.env
 
@@ -14,7 +15,8 @@ const { Content, frontmatter } = await import("@/content/resume.md")
 <Layout title="Jonggwang Park - Resume">
   {
     !PDF_VIEW && (
-      <div class="container mx-auto flex justify-end py-4">
+      <div class="container mx-auto flex justify-end gap-4 items-center py-4">
+        <Download href="/resume.pdf" />
         <ModeToggle client:load />
       </div>
     )
