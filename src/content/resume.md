@@ -47,7 +47,16 @@ date: 2024-11-23
 
 2018.03 - 2018.09
 
-- (작성중)
+- 일본 도쿄 소재 SI 기업, 시스템 개발부 사원
+- 일본 군마현 Ryomo Systems 파견
+- **기술 스택**
+  - React 16, Typescript, Sass, Yarn, Java, Spring Boot 2.0, MySQL
+- **내용**
+  - 교통계 방치주차위반 관리 기능의 프론트엔드와 백엔드 전체 기능 구현
+  - React Class Component 라이프사이클 메서드를 활용하여 여러 컴포넌트 상태에서 코드의 일관성을 유지하여 코드의 유지보수성과 가독성을 향상
+  - TDD(Test-Driven Development) 방식의 개발 진행
+  - JUnit을 이용한 단위 테스트 작성 및 커버리지 테스트 수행
+  - E2E 테스트 수행 후 Excel 테스트 문서를 작성하여 군마현청에 납품
 
 ## Education
 
@@ -62,5 +71,5 @@ date: 2024-11-23
 
 2017.07 - 2018.02
 
-- 일본 IT 기업 코스모컨설팅(주) 협력 교육 회사에서 프로그래밍 및 일본어 교육 이수
+- 일본 IT 기업 코스모컨설팅 협력 교육 회사에서 프로그래밍 및 일본어 교육 이수
 - Java, Spring, MyBatis, iBATIS, MySQL, Oracle, Javascript, HTML, CSS 교육
