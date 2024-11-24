@@ -49,6 +49,8 @@ date: 2024-11-23
 
 - 일본 도쿄 소재 SI 기업, 시스템 개발부 사원
 - 일본 군마현 Ryomo Systems 파견
+- **주요 업무**
+  - 군마 현청 GP-WAN 프로젝트 추진과 교통계 방치주차위반 관리 기능 개발
 - **기술 스택**
   - React 16, Typescript, Sass, Yarn, Java, Spring Boot 2.0, MySQL
 - **내용**
