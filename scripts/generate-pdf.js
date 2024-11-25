@@ -12,7 +12,11 @@ const main = async () => {
     path: "public/resume.pdf",
     format: "A4",
     scale: 0.8,
-    printBackground: true,
+    printBackground: false,
+    margin: {
+      top: "20px",
+      bottom: "20px",
+    },
   })
 
   return browser.close()
