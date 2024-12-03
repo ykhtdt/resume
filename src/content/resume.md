@@ -55,10 +55,6 @@ date: 2024-11-23
   - React 16, Next.js 9, Typescript, Redux, Redux-Saga, SCSS, webpack, Babel, Yarn, Jest, Enzyme
   - Google Analytics, Hotjar
   - Microsoft Teams, Atlassian Jira, Notion
-- **내용**
-  - (작성중)
-- **성과**
-  - (작성중)
 
 ### 코스모컨설팅
 
@@ -73,17 +69,6 @@ date: 2024-11-23
 - **기술 스택**
   - React 16, Typescript, SCSS, Yarn, Java, Spring Boot 2.0, MySQL
   - Redmine
-- **내용**
-  - 교통계 방치주차위반 관리 기능의 프론트엔드와 백엔드 전체 기능 구현
-  - React Class Component 라이프사이클 메서드를 활용하여 여러 컴포넌트 상태에서 코드의 일관성을 유지하여 코드의 유지보수성과 가독성을 향상
-  - Apache POI 라이브러리를 이용한 교통 위반 통계, 시간대별 위반 현황, 구역별 위반 건수 등 통계 데이터를 엑셀 형식으로 시각화를 위한 장표 출력 기능 개발
-  - TDD(Test-Driven Development) 방식의 개발 진행
-  - JUnit을 이용한 단위 테스트 작성 및 커버리지 테스트 수행
-  - E2E 테스트 수행 후 엑셀 테스트 문서를 작성
-  - Redmine을 통한 팀 프로젝트 업무 할당 및 일정 관리
-- **성과**
-  - 시스템을 개발하고 이에 대한 세부 문서를 작성하여 군마 현청에 성공적으로 납품
-  - 기존의 노후된 시스템을 최신화된 시스템 도입으로 현청의 업무 효율성 개선
 
 ## Education
 
