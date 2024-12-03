@@ -35,7 +35,20 @@ date: 2024-11-23
 
 2020.12 - 2023.03 (2년 3개월)
 
-- (작성중)
+- AI기반 영상 모션캡쳐를 통해 캐릭터에 애니메이션을 웹에서 쉽고 빠르게 입히고 편집하는 SaaS Tool을 서비스하는 스타트업
+- 프론트엔드 리드 → 프론트엔드 개발자
+- **주요 업무**
+  - 플라스크 서비스 프론트엔드 전체 개발 및 유지보수
+    - “플라스크 모션” 영상 모션캡쳐를 통해 캐릭터에 애니메이션을 웹에서 쉽고 빠르게 입히고 편집하는 SaaS Tool
+    - MVP 및 베타버전 개발
+    - 정식 서비스 런칭 및 개발, 유지보수
+  - 플라스크 홈페이지 프론트엔드 전체 개발 및 유지보수
+    - 랜딩 페이지, 로그인/회원가입, 결제, 대시보드 등 개발
+  - 플라스크 홈페이지 및 서비스에 대해 사용자 행동 데이터 수집 및 분석을 통한 UX 개선
+- **기술 스택**
+  - React 18, Next.js 12, Typescript, Redux, Redux-Saga, Redux Toolkit, SCSS, webpack, Babel, Yarn, cypress, storybook, ESLint, Prettier, Stylelint, Sentry
+  - Google Analytics, Hotjar
+  - Atlassian Jira, Notion, Slack
 
 ### 왓비타
 
@@ -52,7 +65,7 @@ date: 2024-11-23
     - 랜딩 페이지, 로그인/회원가입, 쇼핑몰, 각종 이벤트 페이지 등 개발
   - 왓비타 홈페이지 및 서비스에 대해 사용자 행동 데이터 수집 및 분석을 통한 UX 개선
 - **기술 스택**
-  - React 16, Next.js 9, Typescript, Redux, Redux-Saga, SCSS, webpack, Babel, Yarn, Jest, Enzyme
+  - React 16, Next.js 9, Typescript, Redux, Redux-Saga, SCSS, webpack, Babel, Yarn, Jest, Enzyme, ESLint, Prettier, Stylelint
   - Google Analytics, Hotjar
   - Microsoft Teams, Atlassian Jira, Notion
 
