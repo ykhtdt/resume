@@ -78,7 +78,7 @@ date: 2024-11-23
 - 일본 군마현 Ryomo Systems 회사 파견
 - **주요 업무**
   - 군마 현청에서 경찰이 PDA 통해 다양한 업무를 수행할 수 있도록 지원하는 시스템인 GP-WAN 프로젝트 추진
-  - GP-WAN 프로젝트 교통계 방치주차위반 관리 기능 개발
+  - GP-WAN 프로젝트 교통계 방치주차위반 관리의 프론트엔드와 백엔드 전체 개발
 - **기술 스택**
   - React 16, Typescript, SCSS, Yarn, Java, Spring Boot 2.0, MySQL
   - Redmine
