@@ -29,7 +29,12 @@ date: 2024-11-23
 
 2024.07 - 2024.09 (3개월)
 
-- (작성중)
+- AI-OCR기반 안전 문서 관리 플랫폼을 서비스하는 AI Ground
+- 프론트엔드 리드
+- **주요 업무**
+  - AI-OCR기반 안전 문서 관리 플랫폼 “세이플리” 프론트엔드 전체 개발 및 유지보수
+- **기술 스택**
+  - React 18, Next.js 14(App Router), Typescript, Jotai, tailwindcss, shadcn/ui, ECharts, TanStack Query, ky, Jest, React Testing Library, ESLint, Sentry
 
 ### 플라스크
 
