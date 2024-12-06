@@ -33,8 +33,10 @@ date: 2024-11-23
 - 프론트엔드 리드
 - **주요 업무**
   - AI-OCR기반 안전 문서 관리 플랫폼 “세이플리” 프론트엔드 전체 개발 및 유지보수
+  - 중대재해처벌법 관련 AI기반 챗봇 개발
 - **기술 스택**
-  - React 18, Next.js 14(App Router), Typescript, Jotai, tailwindcss, shadcn/ui, ECharts, TanStack Query, ky, Jest, React Testing Library, ESLint, Sentry
+  - React 18, Next.js 14(App Router), Typescript, Jotai, tailwindcss, shadcn/ui, ECharts, TanStack Query, ky, Jest, React Testing Library, Yarn, ESLint, Sentry
+  - Notion, Discord
 
 ### 플라스크
 
@@ -51,7 +53,7 @@ date: 2024-11-23
     - 랜딩 페이지, 로그인/회원가입, 결제, 대시보드 등 개발
   - 플라스크 홈페이지 및 서비스에 대해 사용자 행동 데이터 수집 및 분석을 통한 UX 개선
 - **기술 스택**
-  - React 18, Next.js 12, Typescript, Redux, Redux-Saga, Redux Toolkit, SCSS, webpack, Babel, Yarn, cypress, storybook, ESLint, Prettier, Stylelint, Sentry
+  - React 18, Next.js 12, Typescript, Redux, Redux-Saga, Redux Toolkit, Axios, SCSS, webpack, Babel, Yarn, Cypress, Storybook, ESLint, Prettier, Stylelint, Sentry
   - Google Analytics, Hotjar
   - Atlassian Jira, Notion, Slack
 
@@ -70,7 +72,7 @@ date: 2024-11-23
     - 랜딩 페이지, 로그인/회원가입, 쇼핑몰, 각종 이벤트 페이지 등 개발
   - 왓비타 홈페이지 및 서비스에 대해 사용자 행동 데이터 수집 및 분석을 통한 UX 개선
 - **기술 스택**
-  - React 16, Next.js 9, Typescript, Redux, Redux-Saga, SCSS, webpack, Babel, Yarn, Jest, Enzyme, ESLint, Prettier, Stylelint
+  - React 16, Next.js 9, Typescript, Redux, Redux-Saga, SCSS, Axios, webpack, Babel, Yarn, Jest, Enzyme, ESLint, Prettier, Stylelint
   - Google Analytics, Hotjar
   - Microsoft Teams, Atlassian Jira, Notion
 
