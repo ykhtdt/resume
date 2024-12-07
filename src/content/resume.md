@@ -23,7 +23,8 @@ date: 2024-11-23
 
 2024.10 - 현재 (2개월~)
 
-- (작성중)
+- 하나의 제품으로 혁신보단, 여러 아이디어로 다양한 도메인에서 혁신하는 스타트업
+- 프론트엔드 개발자
 
 ### 위즈코어
 
@@ -53,7 +54,7 @@ date: 2024-11-23
     - 랜딩 페이지, 로그인/회원가입, 결제, 대시보드 등 개발
   - 플라스크 홈페이지 및 서비스에 대해 사용자 행동 데이터 수집 및 분석을 통한 UX 개선
 - **기술 스택**
-  - React 18, Next.js 12, Typescript, Redux, Redux-Saga, Redux Toolkit, Axios, SCSS, webpack, Babel, Yarn, Cypress, Storybook, ESLint, Prettier, Stylelint, Sentry
+  - React 18, Next.js 12, Typescript, Redux, Redux-Saga, Redux Toolkit, Axios, SCSS, webpack, Babel, Yarn, Cypress, Storybook, ESLint, Prettier, Stylelint, Vercel, Sentry
   - Google Analytics, Hotjar
   - Atlassian Jira, Notion, Slack
 
