@@ -7,6 +7,9 @@ const isProd = import.meta.env.PROD
 
 // https://astro.build/config
 export default defineConfig({
+  experimental: {
+    svg: true,
+  },
   integrations: [
     react(),
     tailwind({
