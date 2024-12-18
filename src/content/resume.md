@@ -4,6 +4,7 @@ description: Resume of frontend engineer Jonggwang Park.
 author: 박종광
 position: Frontend Engineer
 email: jgpark7281@gmail.com
+github: https://github.com/ykhtdt
 location: Seoul, South Korea
 phone: 010-3502-7281
 draft: false
