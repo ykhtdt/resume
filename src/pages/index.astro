@@ -38,7 +38,7 @@ const { Content, frontmatter } = await import("@/content/resume.md")
     <div class="mt-4 flex flex-wrap gap-2 sm:gap-4 flex-col sm:flex-row">
       <div class="flex items-center gap-2">
         <Github class="w-4 h-4 text-foreground" />
-        <a href={frontmatter.github} class="font-light text-sm hover:underline hover:underline-offset-2">{frontmatter.github}</a>
+        <a href={frontmatter.github} target="_blank" rel="noopenner noreferrer" class="font-light text-sm hover:underline hover:underline-offset-2">{frontmatter.github}</a>
       </div>
       <div class="flex items-center gap-2">
         <Mail className="w-4 h-4" />
